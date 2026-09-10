@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 5. Active State Highlighting for Navigation
-    const sections = document.querySelectorAll('section[id], header[id="home"]');
+    const sections = document.querySelectorAll('section[id], header[id="home"], footer[id="contact"]');
     const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
 
     const updateActiveLink = () => {
