@@ -203,6 +203,19 @@ p {
     color: var(--color-white);
     border-bottom: 1px solid transparent;
     transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .site-header {
+        height: auto;
+        padding: 1.25rem 0;
+    }
+    .site-header .row.py-3 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
 }
 
 .site-header.scrolled {
